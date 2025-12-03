@@ -1,0 +1,13 @@
+#include <iomanip>
+#include <iostream>
+using namespace std;
+int main ()
+{
+int sk, pirmas, paskutinis, galutinis;
+cin>>sk;
+paskutinis=sk%10;
+pirmas=sk/1000;
+galutinis=pirmas*10+paskutinis;
+cout<<galutinis;
+return 0;
+}
