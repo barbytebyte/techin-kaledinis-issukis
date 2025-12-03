@@ -1,0 +1,13 @@
+#include <iomanip>
+#include <iostream>
+using namespace std;
+int main () 
+{ 
+int x, y, m, s;
+cin>>x>>y;
+m=y+y*60;
+s=m*60;
+cout<<"Minutes passed:"<<m<<endl;
+cout<<"Seconds passed:"<<s<<endl;
+return 0;
+}
