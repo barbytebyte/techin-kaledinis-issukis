@@ -1,0 +1,12 @@
+#include <iomanip>
+#include <iostream>
+using namespace std;
+int main () 
+{
+int lenght, wide, m2price;
+double totalcost;
+cin>>lenght>>wide>>m2price;
+totalcost=lenght*wide*m2price*1.05;
+cout<<totalcost;
+return 0;
+}
