@@ -1,0 +1,15 @@
+#include <iomanip>
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int a,b,c;
+    cin>>a>>b>>c;
+    int totalMinutes = a * 60 + b + c;
+    int v = (totalMinutes / 60) % 24; 
+    int m = totalMinutes % 60;        
+
+    cout << "Santa will land at: " << v << " hours " << m << " minutes" << endl;
+
+    return 0;
+}
