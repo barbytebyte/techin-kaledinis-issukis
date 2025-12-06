@@ -1,0 +1,22 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+using namespace std;
+int main () 
+{
+    double sk=1, suma=0;
+    int skaicius=0;
+    char temp;
+    while (sk!=0) {
+        cin>>sk;
+        if (sk==0) break;
+        if (sk>10) {
+            suma=suma+sk;
+            skaicius=skaicius+1;
+        }
+        cin>>temp;
+    }
+    cout<<"Total price of magical toys:"<<fixed<<setprecision(1)<<suma<<" EUR"<<endl;
+    cout<<"Number of magical toys:"<<skaicius;
+    return 0;
+}
