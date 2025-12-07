@@ -1,0 +1,10 @@
+#include <iomanip>
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int k, n, s;
+    cin>>n>>k;
+    s = n * (k + n - 1);
+    cout<<s;
+}
